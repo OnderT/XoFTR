@@ -1,0 +1,14 @@
+name: xoftr
+channels:
+  # - https://dx-mirrors.sensetime.com/anaconda/cloud/pytorch
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pytorch=2.0.1
+  - pytorch-cuda=11.8
+  - pip
+  - pip:
+      - -r requirements.txt
